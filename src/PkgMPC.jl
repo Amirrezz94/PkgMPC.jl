@@ -12,6 +12,7 @@ using Reexport
 @reexport using Ipopt
 @reexport using DataFrames
 @reexport using DifferentialEquations
+@reexport using PlotlyJS
 
 
 #using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations
