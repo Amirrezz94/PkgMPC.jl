@@ -2,7 +2,9 @@ module PkgMPC
 
 # Write your package code here.
 import Pkg
-using Pkg; Pkg.add(Plots)
+using Pkg
+Pkg.add("Plots")
+
 
 using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations
 
