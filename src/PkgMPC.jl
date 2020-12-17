@@ -1,9 +1,6 @@
 module PkgMPC
 
 # Write your package code here.
-#import Pkg
-#using Pkg
-#Pkg.add("Plots")
 import Plots
 import CSV
 import JuMP
