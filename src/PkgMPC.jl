@@ -4,6 +4,15 @@ module PkgMPC
 #import Pkg
 #using Pkg
 #Pkg.add("Plots")
+import Plots
+import CSV
+import JuMP
+import Ipopt
+import DataFrames
+import DifferentialEquations
+import PlotlyJS
+
+#=
 using Reexport
 
 @reexport using Plots
@@ -13,7 +22,7 @@ using Reexport
 @reexport using DataFrames
 @reexport using DifferentialEquations
 @reexport using PlotlyJS
-
+=#
 
 #using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations
 
