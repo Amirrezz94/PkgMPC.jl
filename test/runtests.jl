@@ -12,7 +12,6 @@ Data_Plant = Model_Par(4.0, 0.12, 0.4545, 0.4, 0.4)
 Results = Simulate_Plant(Data_MPC, Data_Plant)
 Figure = Plot_Plant(Results, Data_MPC)
 Save_Plant(Figure,"//home//amir//Documents//Package_Results//MPC_Results.svg")
-
 Export_Plant(Results,Data_MPC, "//home//amir//Documents//Package_Results//MPC_Results.csv")
 
 @testset "PkgMPC.jl" begin
