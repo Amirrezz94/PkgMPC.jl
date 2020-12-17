@@ -21,7 +21,7 @@ using Reexport
 @reexport using PlotlyJS
 =#
 
-#using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations
+#using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations, PlotlyJS
 
 include("Extra.jl")
 include("main.jl")
