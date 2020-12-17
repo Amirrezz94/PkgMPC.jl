@@ -1,12 +1,20 @@
 module PkgMPC
 
 # Write your package code here.
-import Pkg
-using Pkg
-Pkg.add("Plots")
+#import Pkg
+#using Pkg
+#Pkg.add("Plots")
+using Reexport
+
+@reexport using Plots
+@reexport using CSV
+@reexport using JuMP
+@reexport using Ipopt
+@reexport using DataFrames
+@reexport using DifferentialEquations
 
 
-using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations
+#using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations
 
 include("Extra.jl")
 include("main.jl")
