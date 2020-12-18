@@ -1,17 +1,7 @@
 module PkgMPC
 
 # Write your package code here.
-import Plots
-import CSV
-import JuMP
-import Ipopt
-import DataFrames
-import DifferentialEquations
-import PlotlyJS
-
-#=
 using Reexport
-
 @reexport using Plots
 @reexport using CSV
 @reexport using JuMP
@@ -19,9 +9,6 @@ using Reexport
 @reexport using DataFrames
 @reexport using DifferentialEquations
 @reexport using PlotlyJS
-=#
-
-#using Plots, CSV, JuMP, Ipopt, DataFrames, DifferentialEquations, PlotlyJS
 
 include("Extra.jl")
 include("main.jl")
